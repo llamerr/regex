@@ -41,7 +41,8 @@ convertNumber('+380638819999');
 
 
 //https://stackoverflow.com/questions/1159343/convert-a-char-to-upper-case-using-regular-expressions-editpad-pro
-
+//(\w)-(\w)(\w*):\s*([^;]*);
+//$1\U$2\E$3: '$4',
 /*
 .page-container {
   overflow: scroll;
